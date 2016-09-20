@@ -47,11 +47,6 @@ public class DataframeExample implements Serializable {
 
                     public Customer call(final Tuple2<Object, BSONObject> tuple) {
                         Customer m = new Customer();
-                        /*BSONObject header =
-                                (BSONObject) tuple._2().get("header");
-                        */
-                        System.out.println("START>> >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-
                         m.setUserName((String) tuple._2().get("userName"));
                         m.setEmail((String) tuple._2().get("email"));
 

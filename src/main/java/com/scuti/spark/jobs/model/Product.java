@@ -7,6 +7,16 @@ import java.util.Map;
 public class Product {
 
 	private String id;
+
+	public Integer getProductid() {
+		return productid;
+	}
+
+	public void setProductid(Integer productid) {
+		this.productid = productid;
+	}
+
+	private Integer productid;
 	private String name;
 	private String code;
 	private String description;

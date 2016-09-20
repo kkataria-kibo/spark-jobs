@@ -19,7 +19,13 @@ bs.DataframeExample" --master local --deploy-mode client C:\kapil\scuti\spark-jo
 bs\target\spark-jobs-0.0.1-SNAPSHOT.jar
 
 
-
+-- sample application for just reading in SQL style query
 spark-submit --jars C:\devtools\spark-1.6.2-bin-hadoop2.6\spark-1.6.2-bin-hadoop2.6\lib\mongo-hadoop-core-1.4.2.jar,C:\devtools\spark-1.6.2-bin-hadoop2.6\spark-1.6.2-bin-hadoop2.6\lib\mongodb-driver-3.2.2.jar,C:\devtools\spark-1.6.2-bin-hadoop2.6\spark-1.6.2-bin-hadoop2.6\lib\mongo-java-driver-3.2.2.jar --class "com.scuti.spark.jobs.DataframeExample" --master local --deploy-mode client C:\kapil\scuti\spark-jobs\target\spark-jobs-0.0.1-SNAPSHOT.jar
+
+
+ScutiRecommendation ratings
+
+spark-submit --jars C:\devtools\spark-1.6.2-bin-hadoop2.6\spark-1.6.2-bin-hadoop2.6\lib\mongo-hadoop-core-1.4.2.jar,C:\devtools\spark-1.6.2-bin-hadoop2.6\spark-1.6.2-bin-hadoop2.6\lib\mongodb-driver-3.2.2.jar,C:\devtools\spark-1.6.2-bin-hadoop2.6\spark-1.6.2-bin-hadoop2.6\lib\mongo-java-driver-3.2.2.jar --class "com.scuti.spark.jobs.ScutiRecommendation" --master local --deploy-mode client C:\kapil\scuti\spark-jobs\target\spark-jobs-0.0.1-SNAPSHOT.jar
+
 
 

@@ -13,6 +13,18 @@ public class Customer {
     private String prefix;
     private String suffix;
 
+    public Integer getUserid() {
+        return userid;
+    }
+
+    public void setUserid(Integer userid) {
+        this.userid = userid;
+    }
+
+    private Integer userid;
+
+
+
     public String getSuffix() {
         return suffix;
     }
@@ -155,4 +167,6 @@ public class Customer {
     public void setGuest(String guest) {
         this.guest = guest;
     }
+
+
 }
